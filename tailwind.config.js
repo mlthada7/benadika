@@ -5,7 +5,24 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      // padding: '16px',
+    },
+    extend: {
+      colors: {
+        'primary-blue': '#1e44ad',
+        'primary-blue-light': '#3e64bb',
+        'primary-blue-dark': '#0E4470',
+        'primary-red': '#f44c44',
+        secondary: '#cbd5e1',
+        trans: '#00000080',
+      },
+      backgroundImage: {
+        hero: "url('./public/images/andy-li-unsplash.jpg')",
+        map: "url('./public/images/indonesia.png')",
+      },
+    },
   },
   plugins: [],
 }
