@@ -19,11 +19,16 @@ export default {
         trans: '#00000080',
       },
       backgroundImage: {
-        hero: "url('./public/images/andy-li-unsplash.jpg')",
-        map: "url('./public/images/indonesia.png')",
+        hero: "url('./images/andy-li-unsplash.jpg')",
+        map: "url('./images/indonesia.png')",
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+
+  // daisyUI config (optional)
+  daisyui: {
+    darkTheme: 'light',
+  },
 }
 
