@@ -19,8 +19,8 @@ export default {
         trans: '#00000080',
       },
       backgroundImage: {
-        hero: "url('./images/andy-li-unsplash.jpg')",
-        map: "url('./images/indonesia.png')",
+        hero: "url('./assets/images/andy-li-unsplash.jpg')",
+        map: "url('./assets/images/indonesia.png')",
       },
     },
   },
